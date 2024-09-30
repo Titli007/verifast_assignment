@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Chat from './components/Chat';
 import SessionList from './components/SessionList';
@@ -57,7 +57,6 @@ const Session = () => {
             <SessionList 
               sessions={sessions} 
               onSessionClick={handleSessionClick}
-              selectedSessionId={selectedSession?.id}
             />
           </InfiniteScroll>
         </div>
