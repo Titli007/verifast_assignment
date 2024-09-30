@@ -6,6 +6,7 @@ interface SessionListProps {
 }
 
 const SessionList: React.FC<SessionListProps> = ({ sessions, onSessionClick }) => {
+    
     return (
         <div>
             {/* List of chat sessions */}
