@@ -1,8 +1,8 @@
 import React from 'react';
 
 interface SessionListProps {
-    sessions: any[]; // Assuming sessions is an array
-    onSessionClick: (session: any) => void; // Click handler function type
+    sessions: any[];
+    onSessionClick: (session: any) => void;
 }
 
 const SessionList: React.FC<SessionListProps> = ({ sessions, onSessionClick }) => {
