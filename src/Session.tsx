@@ -57,6 +57,7 @@ const Session = () => {
             <SessionList 
               sessions={sessions} 
               onSessionClick={handleSessionClick}
+              selectedSessionId={selectedSession?.id}
             />
           </InfiniteScroll>
         </div>
